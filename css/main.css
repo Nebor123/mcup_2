@@ -526,6 +526,29 @@ section.s_resume {
   width: 100%;
   height: auto; }
 
+#owl-demo .item {
+  position: relative; }
+
+.slider-text {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  font-style: normal;
+  font-weight: 100;
+  text-transform: none;
+  color: #191919;
+  line-height: 83px;
+  font-size: 55px;
+  width: 50%;
+  text-align: center; }
+  .slider-text p {
+    line-height: 85px;
+    font-size: 71px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #adcc1b;
+    margin: 0; }
+
 .owl-controls {
   position: absolute;
   margin-top: -21%;

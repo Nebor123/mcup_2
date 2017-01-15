@@ -531,7 +531,7 @@ section.s_resume {
 
 .slider-text {
   position: absolute;
-  top: 50px;
+  top: 25%;
   left: 170px;
   font-style: normal;
   font-weight: 100;
@@ -540,14 +540,16 @@ section.s_resume {
   line-height: 83px;
   font-size: 55px;
   width: 50%;
-  text-align: center; }
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle; }
   .slider-text p {
     line-height: 85px;
     font-size: 71px;
     font-weight: 700;
     text-transform: uppercase;
     color: #adcc1b;
-    margin: 0; }
+    margin: 15px; }
 
 .owl-controls {
   position: absolute;

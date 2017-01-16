@@ -555,6 +555,9 @@ section.s_resume {
     right: 40px;
     width: 40%; }
 
+.owl-carousel {
+  overflow: hidden; }
+
 .owl-controls {
   position: absolute;
   width: 100%;

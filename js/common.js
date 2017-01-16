@@ -1,17 +1,11 @@
 $(document).ready(function() {
 
 	$("#owl-demo").owlCarousel({
-		autoplay : 300,
-		// autoplayTimeout : 20,
 		navigation : true, // показывать кнопки next и prev 
-		singleItem: true,
-		slideSpeed : 1000,
+		slideSpeed : 300,
 		paginationSpeed : 400,
-		itemsDesktop : false,
-		itemsDesktopSmall : false,
-		itemsTablet: false,
-		itemsMobile : false
-
+		singleItem:true,
+		autoPlay : 5000,
 	});
  
 

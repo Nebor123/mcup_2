@@ -541,36 +541,42 @@ section.s_resume
 	height: auto
 #owl-demo .item	
 	position: relative
-.slider-text 
+.slider-text
 	position: absolute
-	// font-family: Lato
-	top: 25%
-	left: 170px
 	font-style: normal
-	font-weight: 100
+	font-weight: 500
 	text-transform: none
 	color: #191919
 	line-height: 83px
-	font-size: 55px
-	width: 50%
+	font-size: 60px
 	text-align: center
 	display: table-cell
 	vertical-align: middle
 	p 
 		line-height: 85px
-		font-size: 71px
-		font-weight: 700
-		text-transform: uppercase
+		font-size: 60px
+		font-weight: 400
+		// text-transform: uppercase
 		color: #adcc1b
 		margin: 15px
-		
+	&.slider-text-position1
+		top: 25%
+		left: 170px	
+		width: 50%
+	&.slider-text-position2
+		top: 30%
+		right: 40px	
+		width: 40%
+
 
 .owl-controls 
 	position: absolute
-	margin-top: -21%
 	width: 100%
-	padding-left: 30px
 	font-size: 0
+	bottom: 10px
+	left: 50%
+	margin-left: -52px
+
 	.owl-prev
 		border-radius: 50%
 		width: 50px

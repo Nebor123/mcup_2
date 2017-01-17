@@ -5,7 +5,7 @@ $(document).ready(function() {
 		slideSpeed : 300,
 		paginationSpeed : 400,
 		singleItem:true,
-		autoPlay : 5000,
+		autoPlay : 50000000,
 	});
  
 
